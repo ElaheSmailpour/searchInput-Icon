@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title-header{
+    border-bottom: 2px gray solid;
+}
+.container{
+  
+   
+    padding: 20px 0;
+    justify-content: center;
+    align-items:center ;
+}
+.menu{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-bottom: 2px gray solid;
+}
+.login{
+    margin-left: 30px;
+   
+}
+.signup{
+    margin-left: auto;
+}
+.input-search{
+    margin-left: 1rem;
+   
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 3rem;
+    height: 2rem;
+    line-height: 1rem; 
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    margin-left: 4rem;
+}
